@@ -11,5 +11,13 @@ public class Student
 	public void setGpa(double gpa)
 	{
 		this.gpa = gpa;
+	public double getGpa()
+	{
+		return gpa;
+	}
+	
+	public String getName()
+	{
+		return name;
 	}
 }
